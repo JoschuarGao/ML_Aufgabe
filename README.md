@@ -32,7 +32,11 @@ pip install torch torchvision numpy opencv-python Pillow
 
 ### 1. Data Preparation
 
-The project assumes the training and validation datasets are stored in the `train_val_data` folder, and the test dataset is stored in the `test_data` folder. The directory structure of the dataset should be as follows:
+The training and validation datasets, along with the test dataset, can be downloaded from the following link:
+
+[Download Dataset](https://drive.google.com/drive/folders/16VB0OQYX7Pr2VvcfQolr3EmDg7R3wtCJ)
+
+After downloading, extract the datasets to the appropriate folders. The directory structure of the dataset should be as follows:
 
 ```
 train_val_data/
@@ -94,5 +98,4 @@ The model's performance is evaluated during training, and the model with the bes
 ## Contributors
 
 - This project was developed and reproduced by Yushu Gao.
-
 
