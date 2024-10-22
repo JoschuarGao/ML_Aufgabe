@@ -36,19 +36,7 @@ The training and validation datasets, along with the test dataset, can be downlo
 
 [Download Dataset](https://drive.google.com/drive/folders/16VB0OQYX7Pr2VvcfQolr3EmDg7R3wtCJ)
 
-After downloading, extract the datasets to the appropriate folders. The directory structure of the dataset should be as follows:
-
-```
-train_val_data/
-    ├── Bicycle/
-    ├── Bus/
-    ├── Traffic_Light/
-    └── ...
-test_data/
-    ├── test_image_1.png
-    ├── test_image_2.png
-    └── ...
-```
+After downloading, upload the zip files directly to your Google Drive (`/content/drive`). Do **not** extract them locally. The project will handle the extraction during runtime.
 
 ### 2. Model Training
 
@@ -82,7 +70,7 @@ If running in Google Colab:
    drive.mount('/content/drive')
    ```
 
-2. Unzip the training and test data:
+2. Unzip the training and test data inside Colab:
    ```bash
    !unzip /content/drive/MyDrive/train_val.zip
    !unzip /content/drive/MyDrive/test.zip
@@ -98,4 +86,3 @@ The model's performance is evaluated during training, and the model with the bes
 ## Contributors
 
 - This project was developed and reproduced by Yushu Gao.
-
