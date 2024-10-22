@@ -25,7 +25,6 @@ pip install torch torchvision numpy opencv-python Pillow
 ## Project Structure
 
 - `ML_utimi_uktno.ipynb`: The Jupyter notebook containing the core project.
-- `ml_utimi_uktno.py`: The Python script that contains the main model training and inference logic.
 - `train_val_data`: Folder containing the training and validation datasets, with subfolders representing different categories such as Bicycle, Bus, etc.
 - `test_data`: Folder containing the test dataset for model evaluation.
 
@@ -96,6 +95,4 @@ The model's performance is evaluated during training, and the model with the bes
 
 - This project was developed and reproduced by Yushu Gao.
 
-## License
 
-This project is licensed under the MIT License.
